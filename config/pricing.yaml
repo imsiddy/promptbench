@@ -1,0 +1,27 @@
+# Approximate Anthropic API pricing used ONLY for the cost-tracking log in
+# run_evaluation.py. These are USD per MILLION tokens. Verify current
+# pricing at https://www.anthropic.com/pricing before trusting the total
+# for anything beyond a rough budget sanity check, and update this file if
+# it's out of date — the script does not fetch pricing live.
+models:
+  claude-sonnet-5-5:
+    input_per_mtok: 3.00
+    output_per_mtok: 15.00
+  claude-sonnet-5:
+    input_per_mtok: 3.00
+    output_per_mtok: 15.00
+  claude-opus-5:
+    input_per_mtok: 15.00
+    output_per_mtok: 75.00
+  claude-fable-5:
+    input_per_mtok: 3.00
+    output_per_mtok: 15.00
+  claude-haiku-4-5-20251001:
+    input_per_mtok: 0.80
+    output_per_mtok: 4.00
+
+# Used if the configured --model isn't found above, so cost tracking never
+# silently reports $0.00 for an unrecognized model id.
+default:
+  input_per_mtok: 3.00
+  output_per_mtok: 15.00
