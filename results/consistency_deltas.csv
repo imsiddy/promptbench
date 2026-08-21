@@ -1,0 +1,9 @@
+variant_id,mean_total_score_t0.0,run_to_run_std_t0.0,mean_total_score_t0.7,run_to_run_std_t0.7,mean_score_delta_t0.7_minus_t0,consistency_delta_t0.7_minus_t0
+q1_direct,17.1,,17.2,,0.09999999999999787,
+q2_stepbystep,15.6,,15.7,,0.09999999999999964,
+q3_fewshot,18.2,,18.5,,0.3000000000000007,
+q4_role,15.6,,15.5,,-0.09999999999999964,
+s1_direct,17.2,,17.6,,0.40000000000000213,
+s2_stepbystep,17.6,,17.6,,0.0,
+s3_fewshot,18.9,,19.0,,0.10000000000000142,
+s4_role,19.2,,19.2,,0.0,

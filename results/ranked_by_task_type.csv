@@ -1,0 +1,9 @@
+task_type,variant_id,mean_relevance,mean_accuracy,mean_tone,mean_completeness,mean_total_score,n_scored
+qa,q3_fewshot,4.45,4.5,4.6,4.8,18.35,20
+qa,q1_direct,3.7,4.65,3.9,4.9,17.15,20
+qa,q2_stepbystep,3.0,4.65,3.0,5.0,15.65,20
+qa,q4_role,2.95,4.6,3.1,4.9,15.55,20
+summarization,s4_role,4.75,4.95,4.95,4.55,19.2,20
+summarization,s3_fewshot,4.6,5.0,4.6,4.75,18.95,20
+summarization,s2_stepbystep,4.0,4.75,4.0,4.85,17.6,20
+summarization,s1_direct,4.05,4.85,4.05,4.45,17.4,20
