@@ -1,0 +1,161 @@
+run_id,variant_id,case_id,task_type,temperature,run_index,relevance,accuracy,tone,completeness,total_score,scorer_notes,scored_at
+s1_direct__case1__t0.0__r0,s1_direct,1,summarization,0.0,0,4,5,4,4,17,header only; omits pedestrian crossing and vote count,2026-10-02T07:26:59.021623+00:00
+s1_direct__case1__t0.7__r0,s1_direct,1,summarization,0.7,0,4,5,4,4,17,header only; omits pedestrian crossing,2026-10-02T07:26:59.022221+00:00
+s1_direct__case2__t0.0__r0,s1_direct,2,summarization,0.0,0,4,4,4,4,16,says findings pursued with partners; source says seeking a partner,2026-10-02T07:26:59.022290+00:00
+s1_direct__case2__t0.7__r0,s1_direct,2,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.022347+00:00
+s1_direct__case3__t0.0__r0,s1_direct,3,summarization,0.0,0,4,4,4,4,16,overnight delays understates stranded; no gate detail,2026-10-02T07:26:59.022401+00:00
+s1_direct__case3__t0.7__r0,s1_direct,3,summarization,0.7,0,4,5,4,4,17,,2026-10-02T07:26:59.022453+00:00
+s1_direct__case4__t0.0__r0,s1_direct,4,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.022503+00:00
+s1_direct__case4__t0.7__r0,s1_direct,4,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.022551+00:00
+s2_stepbystep__case1__t0.0__r0,s2_stepbystep,1,summarization,0.0,0,4,5,4,4,17,summary itself drops the dissent (only in bullets),2026-10-02T07:26:59.022601+00:00
+s2_stepbystep__case1__t0.7__r0,s2_stepbystep,1,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.022650+00:00
+s2_stepbystep__case2__t0.0__r0,s2_stepbystep,2,summarization,0.0,0,4,4,4,5,17,implies partner testing comes before peer review,2026-10-02T07:26:59.022700+00:00
+s2_stepbystep__case2__t0.7__r0,s2_stepbystep,2,summarization,0.7,0,4,4,4,5,17,promising step toward commercialization is not in source,2026-10-02T07:26:59.022749+00:00
+s2_stepbystep__case3__t0.0__r0,s2_stepbystep,3,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.022797+00:00
+s2_stepbystep__case3__t0.7__r0,s2_stepbystep,3,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.022845+00:00
+s2_stepbystep__case4__t0.0__r0,s2_stepbystep,4,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.022894+00:00
+s2_stepbystep__case4__t0.7__r0,s2_stepbystep,4,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.022938+00:00
+s3_fewshot__case1__t0.0__r0,s3_fewshot,1,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.022983+00:00
+s3_fewshot__case1__t0.7__r0,s3_fewshot,1,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.023036+00:00
+s3_fewshot__case2__t0.0__r0,s3_fewshot,2,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.023081+00:00
+s3_fewshot__case2__t0.7__r0,s3_fewshot,2,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.023126+00:00
+s3_fewshot__case3__t0.0__r0,s3_fewshot,3,summarization,0.0,0,5,5,5,5,20,clean 3 sentences no header,2026-10-02T07:26:59.023171+00:00
+s3_fewshot__case3__t0.7__r0,s3_fewshot,3,summarization,0.7,0,5,5,5,5,20,clean 3 sentences no header,2026-10-02T07:26:59.023216+00:00
+s3_fewshot__case4__t0.0__r0,s3_fewshot,4,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.023261+00:00
+s3_fewshot__case4__t0.7__r0,s3_fewshot,4,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.023306+00:00
+s4_role__case1__t0.0__r0,s4_role,1,summarization,0.0,0,4,5,5,4,18,headline added; omits pedestrian crossing,2026-10-02T07:26:59.023350+00:00
+s4_role__case1__t0.7__r0,s4_role,1,summarization,0.7,0,4,5,5,4,18,headline added; omits pedestrian crossing,2026-10-02T07:26:59.023395+00:00
+s4_role__case2__t0.0__r0,s4_role,2,summarization,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.023444+00:00
+s4_role__case2__t0.7__r0,s4_role,2,summarization,0.7,0,4,5,4,5,18,headline added; Shows Promise is editorializing,2026-10-02T07:26:59.023487+00:00
+s4_role__case3__t0.0__r0,s4_role,3,summarization,0.0,0,5,5,5,4,19,omits stranded passengers,2026-10-02T07:26:59.023531+00:00
+s4_role__case3__t0.7__r0,s4_role,3,summarization,0.7,0,5,5,5,4,19,omits stranded passengers,2026-10-02T07:26:59.023574+00:00
+s4_role__case4__t0.0__r0,s4_role,4,summarization,0.0,0,4,5,5,5,19,headline added,2026-10-02T07:26:59.023617+00:00
+s4_role__case4__t0.7__r0,s4_role,4,summarization,0.7,0,4,5,5,5,19,headline added,2026-10-02T07:26:59.023660+00:00
+s1_direct__case5__t0.0__r0,s1_direct,5,summarization,0.0,0,4,5,4,4,17,header only; omits cause under investigation,2026-10-02T07:26:59.023724+00:00
+s1_direct__case5__t0.7__r0,s1_direct,5,summarization,0.7,0,4,5,4,4,17,header only; omits cause under investigation,2026-10-02T07:26:59.023770+00:00
+s1_direct__case6__t0.0__r0,s1_direct,6,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.023815+00:00
+s1_direct__case6__t0.7__r0,s1_direct,6,summarization,0.7,0,4,4,4,5,17,wording implies competitor pledges cause the price rise,2026-10-02T07:26:59.023860+00:00
+s1_direct__case7__t0.0__r0,s1_direct,7,summarization,0.0,0,4,5,4,4,17,header only; omits planet size,2026-10-02T07:26:59.023905+00:00
+s1_direct__case7__t0.7__r0,s1_direct,7,summarization,0.7,0,5,5,5,4,19,omits planet size,2026-10-02T07:26:59.023950+00:00
+s1_direct__case8__t0.0__r0,s1_direct,8,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.023996+00:00
+s1_direct__case8__t0.7__r0,s1_direct,8,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024046+00:00
+s2_stepbystep__case5__t0.0__r0,s2_stepbystep,5,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.024090+00:00
+s2_stepbystep__case5__t0.7__r0,s2_stepbystep,5,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024135+00:00
+s2_stepbystep__case6__t0.0__r0,s2_stepbystep,6,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.024178+00:00
+s2_stepbystep__case6__t0.7__r0,s2_stepbystep,6,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024222+00:00
+s2_stepbystep__case7__t0.0__r0,s2_stepbystep,7,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.024268+00:00
+s2_stepbystep__case7__t0.7__r0,s2_stepbystep,7,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024313+00:00
+s2_stepbystep__case8__t0.0__r0,s2_stepbystep,8,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.024359+00:00
+s2_stepbystep__case8__t0.7__r0,s2_stepbystep,8,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024405+00:00
+s3_fewshot__case5__t0.0__r0,s3_fewshot,5,summarization,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.024451+00:00
+s3_fewshot__case5__t0.7__r0,s3_fewshot,5,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.024497+00:00
+s3_fewshot__case6__t0.0__r0,s3_fewshot,6,summarization,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.024542+00:00
+s3_fewshot__case6__t0.7__r0,s3_fewshot,6,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.024588+00:00
+s3_fewshot__case7__t0.0__r0,s3_fewshot,7,summarization,0.0,0,5,5,5,4,19,omits planet size and the water vapor is not proof of habitability caveat,2026-10-02T07:26:59.024634+00:00
+s3_fewshot__case7__t0.7__r0,s3_fewshot,7,summarization,0.7,0,5,5,5,4,19,omits planet size and the water vapor is not proof of habitability caveat,2026-10-02T07:26:59.024682+00:00
+s3_fewshot__case8__t0.0__r0,s3_fewshot,8,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.024732+00:00
+s3_fewshot__case8__t0.7__r0,s3_fewshot,8,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.024778+00:00
+s4_role__case5__t0.0__r0,s4_role,5,summarization,0.0,0,5,5,5,4,19,omits cause under investigation,2026-10-02T07:26:59.024824+00:00
+s4_role__case5__t0.7__r0,s4_role,5,summarization,0.7,0,5,5,5,4,19,omits cause under investigation,2026-10-02T07:26:59.024870+00:00
+s4_role__case6__t0.0__r0,s4_role,6,summarization,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.024914+00:00
+s4_role__case6__t0.7__r0,s4_role,6,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.024958+00:00
+s4_role__case7__t0.0__r0,s4_role,7,summarization,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.025002+00:00
+s4_role__case7__t0.7__r0,s4_role,7,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.025046+00:00
+s4_role__case8__t0.0__r0,s4_role,8,summarization,0.0,0,5,4,5,5,19,stable or improved is vaguer than the 85 to 87 percent source figure,2026-10-02T07:26:59.025090+00:00
+s4_role__case8__t0.7__r0,s4_role,8,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.025134+00:00
+s1_direct__case17__t0.0__r0,s1_direct,17,summarization,0.0,0,4,5,4,4,17,header only; omits commissioner's funding doubt,2026-10-02T07:26:59.025179+00:00
+s1_direct__case17__t0.7__r0,s1_direct,17,summarization,0.7,0,4,5,4,4,17,header only; omits staffing and funding doubt,2026-10-02T07:26:59.025224+00:00
+s1_direct__case18__t0.0__r0,s1_direct,18,summarization,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.025281+00:00
+s1_direct__case18__t0.7__r0,s1_direct,18,summarization,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.025327+00:00
+s2_stepbystep__case17__t0.0__r0,s2_stepbystep,17,summarization,0.0,0,4,5,4,4,17,omits commissioner's funding doubt,2026-10-02T07:26:59.025373+00:00
+s2_stepbystep__case17__t0.7__r0,s2_stepbystep,17,summarization,0.7,0,4,4,4,4,16,says board committed to seek funding; source says only if popular,2026-10-02T07:26:59.025419+00:00
+s2_stepbystep__case18__t0.0__r0,s2_stepbystep,18,summarization,0.0,0,4,4,4,5,17,broader trend as companies prioritize emerging tech is not in source,2026-10-02T07:26:59.025466+00:00
+s2_stepbystep__case18__t0.7__r0,s2_stepbystep,18,summarization,0.7,0,4,4,4,5,17,growing disconnect in the tech industry overgeneralizes,2026-10-02T07:26:59.025513+00:00
+s3_fewshot__case17__t0.0__r0,s3_fewshot,17,summarization,0.0,0,5,5,5,4,19,omits commissioner's funding doubt,2026-10-02T07:26:59.025559+00:00
+s3_fewshot__case17__t0.7__r0,s3_fewshot,17,summarization,0.7,0,5,5,5,4,19,omits commissioner's funding doubt,2026-10-02T07:26:59.025604+00:00
+s3_fewshot__case18__t0.0__r0,s3_fewshot,18,summarization,0.0,0,5,5,5,4,19,omits profit shortfall,2026-10-02T07:26:59.025650+00:00
+s3_fewshot__case18__t0.7__r0,s3_fewshot,18,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.025696+00:00
+s4_role__case17__t0.0__r0,s4_role,17,summarization,0.0,0,5,5,5,4,19,omits commissioner's funding doubt,2026-10-02T07:26:59.025742+00:00
+s4_role__case17__t0.7__r0,s4_role,17,summarization,0.7,0,5,5,5,4,19,omits commissioner's funding doubt,2026-10-02T07:26:59.025796+00:00
+s4_role__case18__t0.0__r0,s4_role,18,summarization,0.0,0,5,5,5,4,19,omits stock move,2026-10-02T07:26:59.025842+00:00
+s4_role__case18__t0.7__r0,s4_role,18,summarization,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.025888+00:00
+q1_direct__case9__t0.0__r0,q1_direct,9,qa,0.0,0,3,5,3,5,16,headings plus altitude table and cooking aside for a short question,2026-10-02T07:26:59.025934+00:00
+q1_direct__case9__t0.7__r0,q1_direct,9,qa,0.7,0,3,5,3,5,16,headings plus altitude table and cooking aside for a short question,2026-10-02T07:26:59.025981+00:00
+q1_direct__case10__t0.0__r0,q1_direct,10,qa,0.0,0,4,5,4,5,18,extra trivia about First Impressions,2026-10-02T07:26:59.026027+00:00
+q1_direct__case10__t0.7__r0,q1_direct,10,qa,0.7,0,4,5,4,5,18,extra trivia about First Impressions,2026-10-02T07:26:59.026073+00:00
+q1_direct__case11__t0.0__r0,q1_direct,11,qa,0.0,0,4,5,4,5,18,thorough but includes examples and heavy headings,2026-10-02T07:26:59.026119+00:00
+q1_direct__case11__t0.7__r0,q1_direct,11,qa,0.7,0,4,5,4,5,18,thorough but heavy headings,2026-10-02T07:26:59.026165+00:00
+q1_direct__case12__t0.0__r0,q1_direct,12,qa,0.0,0,2,2,4,4,12,names Jupiter with 95 moons; Saturn has more and the answer contradicts itself,2026-10-02T07:26:59.026211+00:00
+q1_direct__case12__t0.7__r0,q1_direct,12,qa,0.7,0,2,2,4,4,12,names Jupiter with 95 moons; Saturn has more and the answer contradicts itself,2026-10-02T07:26:59.026259+00:00
+q2_stepbystep__case9__t0.0__r0,q2_stepbystep,9,qa,0.0,0,3,5,3,5,16,long analysis then repeats answer,2026-10-02T07:26:59.026309+00:00
+q2_stepbystep__case9__t0.7__r0,q2_stepbystep,9,qa,0.7,0,3,5,3,5,16,long analysis then repeats answer,2026-10-02T07:26:59.026359+00:00
+q2_stepbystep__case10__t0.0__r0,q2_stepbystep,10,qa,0.0,0,3,4,3,5,15,A Lady credit belongs to Sense and Sensibility; heavy process for a simple fact,2026-10-02T07:26:59.026405+00:00
+q2_stepbystep__case10__t0.7__r0,q2_stepbystep,10,qa,0.7,0,3,4,3,5,15,A Lady credit belongs to Sense and Sensibility; heavy process for a simple fact,2026-10-02T07:26:59.026452+00:00
+q2_stepbystep__case11__t0.0__r0,q2_stepbystep,11,qa,0.0,0,3,5,3,5,16,long reasoning section then repeated answer,2026-10-02T07:26:59.026498+00:00
+q2_stepbystep__case11__t0.7__r0,q2_stepbystep,11,qa,0.7,0,3,5,3,5,16,long reasoning section then repeated answer,2026-10-02T07:26:59.026544+00:00
+q2_stepbystep__case12__t0.0__r0,q2_stepbystep,12,qa,0.0,0,3,5,3,5,16,correct Saturn answer but lists every planet first,2026-10-02T07:26:59.026610+00:00
+q2_stepbystep__case12__t0.7__r0,q2_stepbystep,12,qa,0.7,0,3,5,3,5,16,correct Saturn answer but lists every planet first,2026-10-02T07:26:59.026661+00:00
+q3_fewshot__case9__t0.0__r0,q3_fewshot,9,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.026709+00:00
+q3_fewshot__case9__t0.7__r0,q3_fewshot,9,qa,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.026755+00:00
+q3_fewshot__case10__t0.0__r0,q3_fewshot,10,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.026803+00:00
+q3_fewshot__case10__t0.7__r0,q3_fewshot,10,qa,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.026850+00:00
+q3_fewshot__case11__t0.0__r0,q3_fewshot,11,qa,0.0,0,4,2,4,3,13,says bacteria have a nucleus and organelles; omits treatment and size,2026-10-02T07:26:59.026897+00:00
+q3_fewshot__case11__t0.7__r0,q3_fewshot,11,qa,0.7,0,4,5,5,5,19,,2026-10-02T07:26:59.026945+00:00
+q3_fewshot__case12__t0.0__r0,q3_fewshot,12,qa,0.0,0,3,2,4,4,13,leads with Jupiter then says Saturn holds the record; contradictory,2026-10-02T07:26:59.026993+00:00
+q3_fewshot__case12__t0.7__r0,q3_fewshot,12,qa,0.7,0,3,2,4,4,13,leads with Jupiter then says Saturn is higher; contradictory,2026-10-02T07:26:59.027043+00:00
+q4_role__case9__t0.0__r0,q4_role,9,qa,0.0,0,3,5,3,5,16,chatty extras and closing questions,2026-10-02T07:26:59.027091+00:00
+q4_role__case9__t0.7__r0,q4_role,9,qa,0.7,0,3,5,3,5,16,chatty extras and closing questions,2026-10-02T07:26:59.027138+00:00
+q4_role__case10__t0.0__r0,q4_role,10,qa,0.0,0,3,5,4,5,17,plot and quote added,2026-10-02T07:26:59.027186+00:00
+q4_role__case10__t0.7__r0,q4_role,10,qa,0.7,0,4,5,4,5,18,plot aside and exclamation,2026-10-02T07:26:59.027234+00:00
+q4_role__case11__t0.0__r0,q4_role,11,qa,0.0,0,3,5,3,5,16,Great question opener and closing question,2026-10-02T07:26:59.027282+00:00
+q4_role__case11__t0.7__r0,q4_role,11,qa,0.7,0,3,4,3,5,15,says bacteria have DNA only; filler and table,2026-10-02T07:26:59.027332+00:00
+q4_role__case12__t0.0__r0,q4_role,12,qa,0.0,0,2,2,3,4,11,names Jupiter; tangent about Galilean moons,2026-10-02T07:26:59.027381+00:00
+q4_role__case12__t0.7__r0,q4_role,12,qa,0.7,0,2,2,3,4,11,names Jupiter; tangent about Galilean moons,2026-10-02T07:26:59.027429+00:00
+q1_direct__case13__t0.0__r0,q1_direct,13,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.027479+00:00
+q1_direct__case13__t0.7__r0,q1_direct,13,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.027527+00:00
+q1_direct__case14__t0.0__r0,q1_direct,14,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.027576+00:00
+q1_direct__case14__t0.7__r0,q1_direct,14,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.027624+00:00
+q1_direct__case15__t0.0__r0,q1_direct,15,qa,0.0,0,4,4,4,5,17,claims red cells distribute nutrients,2026-10-02T07:26:59.027673+00:00
+q1_direct__case15__t0.7__r0,q1_direct,15,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.027722+00:00
+q1_direct__case16__t0.0__r0,q1_direct,16,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.027772+00:00
+q1_direct__case16__t0.7__r0,q1_direct,16,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.027818+00:00
+q1_direct__case19__t0.0__r0,q1_direct,19,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.027865+00:00
+q1_direct__case19__t0.7__r0,q1_direct,19,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.027911+00:00
+q1_direct__case20__t0.0__r0,q1_direct,20,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.027958+00:00
+q1_direct__case20__t0.7__r0,q1_direct,20,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.028004+00:00
+q2_stepbystep__case13__t0.0__r0,q2_stepbystep,13,qa,0.0,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028051+00:00
+q2_stepbystep__case13__t0.7__r0,q2_stepbystep,13,qa,0.7,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028099+00:00
+q2_stepbystep__case14__t0.0__r0,q2_stepbystep,14,qa,0.0,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028146+00:00
+q2_stepbystep__case14__t0.7__r0,q2_stepbystep,14,qa,0.7,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028194+00:00
+q2_stepbystep__case16__t0.0__r0,q2_stepbystep,16,qa,0.0,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028258+00:00
+q2_stepbystep__case16__t0.7__r0,q2_stepbystep,16,qa,0.7,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028301+00:00
+q2_stepbystep__case19__t0.0__r0,q2_stepbystep,19,qa,0.0,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028343+00:00
+q2_stepbystep__case19__t0.7__r0,q2_stepbystep,19,qa,0.7,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028392+00:00
+q2_stepbystep__case15__t0.0__r0,q2_stepbystep,15,qa,0.0,0,3,3,3,5,14,nutrient distribution and heat distribution claims are weak,2026-10-02T07:26:59.028435+00:00
+q2_stepbystep__case15__t0.7__r0,q2_stepbystep,15,qa,0.7,0,3,5,3,5,16,long reasoning then repeated answer,2026-10-02T07:26:59.028478+00:00
+q2_stepbystep__case20__t0.0__r0,q2_stepbystep,20,qa,0.0,0,3,4,3,5,15,blue scatters about 10 times more than red overstates the roughly 6x ratio,2026-10-02T07:26:59.028521+00:00
+q2_stepbystep__case20__t0.7__r0,q2_stepbystep,20,qa,0.7,0,3,3,3,5,14,green absorbed by oxygen claim is dubious; scatter away completely overstated,2026-10-02T07:26:59.028564+00:00
+q3_fewshot__case13__t0.0__r0,q3_fewshot,13,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.028607+00:00
+q3_fewshot__case13__t0.7__r0,q3_fewshot,13,qa,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.028650+00:00
+q3_fewshot__case14__t0.0__r0,q3_fewshot,14,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.028692+00:00
+q3_fewshot__case14__t0.7__r0,q3_fewshot,14,qa,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.028733+00:00
+q3_fewshot__case15__t0.0__r0,q3_fewshot,15,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.028775+00:00
+q3_fewshot__case15__t0.7__r0,q3_fewshot,15,qa,0.7,0,5,5,5,5,20,,2026-10-02T07:26:59.028816+00:00
+q3_fewshot__case16__t0.0__r0,q3_fewshot,16,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.028858+00:00
+q3_fewshot__case16__t0.7__r0,q3_fewshot,16,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.028900+00:00
+q3_fewshot__case19__t0.0__r0,q3_fewshot,19,qa,0.0,0,5,5,5,5,20,,2026-10-02T07:26:59.028941+00:00
+q3_fewshot__case19__t0.7__r0,q3_fewshot,19,qa,0.7,0,4,5,4,5,18,,2026-10-02T07:26:59.028983+00:00
+q3_fewshot__case20__t0.0__r0,q3_fewshot,20,qa,0.0,0,4,5,4,5,18,,2026-10-02T07:26:59.029025+00:00
+q3_fewshot__case20__t0.7__r0,q3_fewshot,20,qa,0.7,0,4,4,4,5,17,blue scatters away entirely overstates,2026-10-02T07:26:59.029067+00:00
+q4_role__case13__t0.0__r0,q4_role,13,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029110+00:00
+q4_role__case13__t0.7__r0,q4_role,13,qa,0.7,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029152+00:00
+q4_role__case15__t0.0__r0,q4_role,15,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029193+00:00
+q4_role__case15__t0.7__r0,q4_role,15,qa,0.7,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029235+00:00
+q4_role__case16__t0.0__r0,q4_role,16,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029280+00:00
+q4_role__case16__t0.7__r0,q4_role,16,qa,0.7,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029322+00:00
+q4_role__case19__t0.0__r0,q4_role,19,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029364+00:00
+q4_role__case19__t0.7__r0,q4_role,19,qa,0.7,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029406+00:00
+q4_role__case20__t0.0__r0,q4_role,20,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029449+00:00
+q4_role__case20__t0.7__r0,q4_role,20,qa,0.7,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029491+00:00
+q4_role__case14__t0.0__r0,q4_role,14,qa,0.0,0,3,5,3,5,16,"extras, emoji or closing question",2026-10-02T07:26:59.029533+00:00
+q4_role__case14__t0.7__r0,q4_role,14,qa,0.7,0,3,4,3,5,15,says winter rays hit at a steeper angle; extras and closing question,2026-10-02T07:26:59.029576+00:00
