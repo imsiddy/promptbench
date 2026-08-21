@@ -1,0 +1,102 @@
+# Prompt variants. Each variant changes exactly one dimension from the
+# baseline for its task type (v1 = baseline).
+#
+# Schema:
+#   variant_id  unique string
+#   task_type   must match task_type in test_cases.csv
+#   template    must contain the literal {input} placeholder
+#   temperature documentation of the baseline; the runner exercises both
+#               0.0 and 0.7 for every variant
+#   notes       what changed vs. baseline and the hypothesis
+
+variants:
+  - variant_id: s1_direct
+    task_type: summarization
+    template: |
+      Summarize the following article in 2-3 sentences.
+
+      {input}
+    temperature: 0.0
+    notes: "Baseline. Plain instruction with a length limit. Hypothesis: concise but may drop secondary facts (numbers, dissenting views)."
+
+  - variant_id: s2_stepbystep
+    task_type: summarization
+    template: |
+      Summarize the following article in 2-3 sentences. First list the key
+      facts as short bullet points, then write the final summary under the
+      heading "Summary:".
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: asks for key-fact extraction before summarizing. Hypothesis: raises completeness and accuracy, may hurt relevance/tone through extra text."
+
+  - variant_id: s3_fewshot
+    task_type: summarization
+    template: |
+      Summarize articles in 2-3 sentences.
+
+      Example article: The town board approved a $2 million budget for a new
+      playground after parents lobbied for two years. Work starts in May and
+      should finish by August. One board member objected to the cost.
+      Example summary: The town board approved a $2 million playground
+      budget after two years of parent lobbying, with construction planned
+      for May to August. One member objected to the cost.
+
+      Now summarize this article:
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: one worked example. Hypothesis: improves tone and format consistency and keeps dissenting views."
+
+  - variant_id: s4_role
+    task_type: summarization
+    template: |
+      You are a veteran news editor who writes tight, neutral wire-service
+      copy. Summarize the following article in 2-3 sentences.
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: assigns an editor role. Hypothesis: improves tone (neutral, no filler) with little effect on completeness."
+
+  - variant_id: q1_direct
+    task_type: qa
+    template: |
+      Answer the following question.
+
+      {input}
+    temperature: 0.0
+    notes: "Baseline. Plain question. Hypothesis: accurate but may be verbose or skip the second half of two-part questions."
+
+  - variant_id: q2_stepbystep
+    task_type: qa
+    template: |
+      Answer the following question. Think through it step by step, then
+      give the final answer under the heading "Answer:".
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: step-by-step reasoning. Hypothesis: improves completeness on multi-part questions, costs relevance by adding length."
+
+  - variant_id: q3_fewshot
+    task_type: qa
+    template: |
+      Answer questions briefly and accurately.
+
+      Example question: What is the capital of Australia, and why is it not Sydney?
+      Example answer: The capital is Canberra. It was purpose-built as a compromise between rivals Sydney and Melbourne.
+
+      Now answer this question:
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: one worked example showing brevity and addressing both parts. Hypothesis: improves relevance and completeness on two-part questions."
+
+  - variant_id: q4_role
+    task_type: qa
+    template: |
+      You are a knowledgeable science and general-knowledge tutor. Answer
+      the following question for a curious high-school student.
+
+      {input}
+    temperature: 0.0
+    notes: "Only change vs baseline: assigns a tutor role and audience. Hypothesis: shifts tone to friendlier/more explanatory, with some filler."
